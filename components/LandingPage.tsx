@@ -131,7 +131,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onEnter }) => {
              {t('landing_subtitle')}
              <br />
              <span className="text-xs text-cyber-primary/60 mt-2 block font-mono">
-               >> PROTOCOL: PRECISION_CALC // ENCRYPTION: LOCAL_ONLY
+               &gt;&gt; PROTOCOL: PRECISION_CALC // ENCRYPTION: LOCAL_ONLY
              </span>
            </p>
 
