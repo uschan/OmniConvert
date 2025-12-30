@@ -1,4 +1,3 @@
-import React from 'react';
 import { CategoryDefinition, UnitDefinition } from './types';
 import { 
   Ruler, Weight, Clock, Thermometer, BoxSelect, Cylinder, 

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
-import { ArrowRight, ShieldCheck, Zap, Layers, Terminal, Cpu, Github, Instagram, Globe } from 'lucide-react';
+import { ArrowRight, ShieldCheck, Layers, Terminal, Cpu, Github, Instagram, Globe } from 'lucide-react';
 
 interface LandingPageProps {
   onEnter: () => void;
@@ -131,7 +131,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onEnter }) => {
              {t('landing_subtitle')}
              <br />
              <span className="text-xs text-cyber-primary/60 mt-2 block font-mono">
-               &gt;&gt; PROTOCOL: PRECISION_CALC // ENCRYPTION: LOCAL_ONLY
+               >> PROTOCOL: PRECISION_CALC // ENCRYPTION: LOCAL_ONLY
              </span>
            </p>
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { 
   Menu, Search, Calculator, History as HistoryIcon, 
-  ChevronRight, Github, Heart, Globe, Terminal, Box
+  ChevronRight, Heart, Globe, Terminal, Box
 } from 'lucide-react';
 import { CATEGORIES } from './constants';
 import { AppView, HistoryItem } from './types';
